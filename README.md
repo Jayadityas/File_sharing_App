@@ -87,3 +87,12 @@ npm run dev
 4. Track Downloads: Each download is automatically tracked in the database
 
 ---
+
+### API Endpoints
+| Method         | Endpoint     |Description                   |
+|----------------|--------------|------------------------------|
+| POST           | /upload      |Upload a file                 |
+|----------------|--------------|------------------------------|
+| GET            | /file/:fileId  |Get a file                    |
+|----------------|--------------|------------------------------|
+
