@@ -90,7 +90,9 @@ npm run dev
 
 ### API Endpoints
 | Method         | Endpoint     |Description                   |
+|-----------------|---------------|-------------------------------|
 | POST           | /upload      |Upload a file                 |
+|-----------------|---------------|-------------------------------|
 | GET            | /file/:fileId  |Get a file                    |
 
 
