@@ -95,6 +95,44 @@ npm run dev
 | POST   | `/upload`      | Upload a file               |
 | GET    | `/file/:fileId`| Download a file by ID       |
 
+### Project Structure
+``` bash
+File_sharing_App/
+├── JayadityaFS/                 # React frontend
+│   ├── src/
+│   │   ├── service/       # API service functions
+│   │   ├── App.js         # Main React component
+│   │   └── App.css        # Styling
+│   └── package.json
+├── server/                # Node.js backend
+│   ├── controller/        # Route controllers
+│   ├── database/         # Database connection
+│   ├── models/           # MongoDB schemas
+│   ├── routes/           # API routes
+│   ├── utils/            # Utility functions
+│   ├── uploads/          # File storage directory
+│   ├── .env.example      # Environment variables template
+│   └── package.json
+└── README.md
 
+```
+---
+### Dependencies
+### Backend Dependencies
+1. express: Web framework for Node.js
+2. mongoose: MongoDB object modeling
+3. multer: File upload middleware
+4. cors: Cross-origin resource sharing
+5. dotenv: Environment variable management
 
+### Frontend Dependencies
+1. react: UI library
+2. axios: HTTP client for API calls
+
+### License
+This project is licensed under the MIT License.
+
+### Support
+If you encounter any issues or have questions, please create an issue in the GitHub repository.
+   
 
